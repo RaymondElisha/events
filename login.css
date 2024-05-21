@@ -1,0 +1,247 @@
+.img-4769-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1022px;
+  object-fit: cover;
+}
+.rectangle5 {
+  position: absolute;
+  top: 218px;
+  left: 49.3px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  width: 626.3px;
+  height: 583px;
+}
+.welcome-back {
+  position: absolute;
+  top: 278.8px;
+  left: 128.9px;
+  font-size: var(--body-h4-size);
+  letter-spacing: -0.01em;
+  line-height: 36px;
+  display: inline-block;
+  width: 561.9px;
+  height: 47.8px;
+}
+.button-child15 {
+  text-decoration: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-300);
+}
+.login1 {
+  position: absolute;
+  top: 31.26%;
+  left: 33.77%;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+.button19 {
+  position: absolute;
+  top: 639.5px;
+  left: 270.9px;
+  border-radius: var(--br-3xs);
+  width: 130.9px;
+  height: 53.1px;
+  text-align: center;
+  color: var(--actionable-item);
+}
+.photo9 {
+  position: absolute;
+  height: 100%;
+  width: 71.83%;
+  top: 0;
+  left: 28.17%;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.union-icon18,
+.union-icon19 {
+  position: relative;
+  width: 22.5px;
+  height: 22.5px;
+}
+.union-icon19 {
+  object-fit: contain;
+}
+.sample-logo9 {
+  position: absolute;
+  top: 14px;
+  left: 80px;
+  width: 122.1px;
+  height: 32px;
+  font-size: var(--font-size-9xl-4);
+  color: var(--color-black);
+  font-family: var(--font-comfortaa);
+}
+.features6,
+.my-dashboard6,
+.support6 {
+  position: absolute;
+  top: 21px;
+  left: 892px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+.my-dashboard6,
+.support6 {
+  left: 1008px;
+}
+.support6 {
+  left: 1169px;
+}
+.button-child16 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-200);
+}
+.search14 {
+  position: absolute;
+  top: 27.5%;
+  left: 26.15%;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  display: none;
+}
+.button20 {
+  position: absolute;
+  top: 10px;
+  left: 1262px;
+  width: 130px;
+  height: 40px;
+  color: var(--color-white);
+}
+.search15 {
+  position: absolute;
+  top: 14px;
+  left: 1263px;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 129px;
+  height: 36px;
+}
+.group-child16,
+.group-child17,
+.navigation-b6 {
+  background-color: var(--color-white);
+  position: absolute;
+}
+.navigation-b6 {
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 77px;
+  overflow: hidden;
+  text-align: center;
+  color: var(--actionable-item);
+}
+.group-child16,
+.group-child17 {
+  border: 1px solid var(--color-gray-400);
+  outline: 0;
+  top: 410.6px;
+  left: 114.8px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 483.4px;
+  height: 53.8px;
+}
+.group-child17 {
+  top: 525.6px;
+  left: 117.8px;
+  width: 497.5px;
+  height: 53.1px;
+}
+.username {
+  top: 371px;
+  left: 126.9px;
+  line-height: 24px;
+  display: inline-block;
+  width: 187.3px;
+  height: 29px;
+}
+.forgot-password,
+.password,
+.username {
+  position: absolute;
+  letter-spacing: -0.01em;
+}
+.password {
+  top: 484px;
+  left: 127.9px;
+  line-height: 24px;
+  display: inline-block;
+  width: 176.2px;
+  height: 26px;
+}
+.forgot-password {
+  top: 594px;
+  left: 121.8px;
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 156.1px;
+  height: 28px;
+}
+.register-here {
+  color: var(--actionable-item);
+}
+.dont-have-an-container1 {
+  width: 100%;
+}
+.dont-have-an-container {
+  text-decoration: none;
+  position: absolute;
+  top: 717px;
+  left: 132.9px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 312.2px;
+  height: 39px;
+  color: var(--color-dimgray-100);
+}
+.group6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1022px;
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  height: 1022px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--sub-page-h1);
+}
