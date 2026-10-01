@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#fbfaf6" />
+  <meta name="description" content="A white-and-gold folding wedding invitation for Felix & Cindy." />
+  <title>Felix & Cindy — 08.10.2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=DM+Sans:wght@300;400;500;600&family=Italiana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <button id="editButton" class="edit-button" aria-label="Edit invitation"><span>✦</span><span>Edit</span></button>
+  <main id="experience" class="experience">
+    <div class="sticky-stage">
+      <section id="envelope" class="envelope">
+        <div class="envelope-underlay"></div>
+        <div class="inner-card-shell" id="innerCardShell">
+          <div class="inner-card">
+            <div class="card-rail" id="cardRail">
+              <section class="card-section intro-section">
+                <div class="botanical botanical-orchid botanical-top"></div>
+                <div class="eyebrow">Together with their families</div>
+                <div class="monogram" id="monogram">F <span>&</span> C</div>
+                <h1 class="couple-names"><span data-bind="firstName">Felix</span><em>&</em><span data-bind="secondName">Cindy</span></h1>
+                <p class="invite-line">request the pleasure of your company<br>as they celebrate their marriage.</p>
+                <div class="gold-rule"><span></span></div>
+                <p class="date-line"><span data-bind="dateDisplay">Thursday · 8 October 2026</span></p>
+                <div class="scroll-cue">Scroll to unfold <span>↓</span></div>
+              </section>
+
+              <section class="card-section guest-section">
+                <div class="section-number">01</div>
+                <div class="eyebrow">Reserved for you</div>
+                <h2>Dear <span data-bind="guestName">Mr. Raymond Nuwamanya</span>,</h2>
+                <p class="large-copy">You’re invited to share a day made of vows, joy, family and the beginning of forever.</p>
+                <div class="personal-card">
+                  <div><small>Invitation</small><strong data-bind="code">kh8ayj</strong></div>
+                  <div><small>Admits</small><strong><span data-bind="guestCount">1</span> guest</strong></div>
+                </div>
+              </section>
+
+              <section class="card-section ceremony-section">
+                <div class="section-number">02</div>
+                <div class="eyebrow">The wedding day</div>
+                <h2>Where love brings us.</h2>
+                <div class="event-grid">
+                  <article class="event-card">
+                    <span class="event-index">01</span><p class="event-kicker">Church ceremony</p>
+                    <h3 data-bind="ceremonyTime">10:00 AM</h3>
+                    <p><strong data-bind="ceremonyName">St Charles Lwanga, Ntinda Parish</strong><br><span data-bind="ceremonyLocation">Ntinda, Kampala</span></p>
+                    <a class="gold-link" data-link="ceremonyMap" href="#" target="_blank" rel="noopener">Church directions ↗</a>
+                  </article>
+                  <article class="event-card">
+                    <span class="event-index">02</span><p class="event-kicker">Wedding reception</p>
+                    <h3 data-bind="receptionTime">3:00 PM</h3>
+                    <p><strong data-bind="receptionName">Akaama Resort</strong><br><span data-bind="receptionLocation">Kira, Wakiso</span></p>
+                    <a class="gold-link" data-link="receptionMap" href="#" target="_blank" rel="noopener">Reception directions ↗</a>
+                  </article>
+                </div>
+                <p class="timezone-note">All times are East Africa Time.</p>
+              </section>
+
+              <section class="card-section countdown-section">
+                <div class="botanical botanical-rose botanical-mid"></div>
+                <div class="section-number">03</div><div class="eyebrow">Until we say “I do”</div>
+                <div class="countdown" id="countdown">
+                  <div><strong id="days">00</strong><span>Days</span></div>
+                  <div><strong id="hours">00</strong><span>Hours</span></div>
+                  <div><strong id="minutes">00</strong><span>Minutes</span></div>
+                  <div><strong id="seconds">00</strong><span>Seconds</span></div>
+                </div>
+                <p class="large-copy centered">One date. Two hearts. A lifetime to come.</p>
+                <button id="calendarButton" class="outline-button">Add to calendar</button>
+              </section>
+
+              <section class="card-section photo-section">
+                <div class="section-number">04</div><div class="eyebrow">Our story</div><h2>From this day forward.</h2>
+                <div class="photo-pair">
+                  <figure class="photo-frame photo-a" id="photoFrame1"><img id="photo1" alt="Couple photo one" loading="lazy"><div class="photo-placeholder">Add your photo in Edit</div></figure>
+                  <figure class="photo-frame photo-b" id="photoFrame2"><img id="photo2" alt="Couple photo two" loading="lazy"><div class="photo-placeholder">Add another photo</div></figure>
+                </div>
+              </section>
+
+              <section class="card-section notes-section">
+                <div class="section-number">05</div>
+                <div class="note-grid">
+                  <article><div class="eyebrow">Gifts of love</div><h2>Your presence is our gift.</h2><p data-bind="giftNote">Sharing our day with you means the most to us. If you would like to give something more, a small, easy-to-carry gift or a cash contribution would be warmly appreciated as we begin our married life abroad.</p></article>
+                  <article><div class="eyebrow">A kind note</div><h2>An adults-only celebration.</h2><p data-bind="adultsNote">We love your children, and kindly ask that both the church ceremony and reception be attended by adults only.</p></article>
+                </div>
+              </section>
+
+              <section class="card-section finale-section">
+                <div class="botanical botanical-orchid botanical-bottom"></div><div class="section-number">06</div><div class="eyebrow">With love</div>
+                <h2 class="final-names"><span data-bind="firstName">Felix</span> <em>&</em> <span data-bind="secondName">Cindy</span></h2>
+                <p class="verse" data-bind="verse">“Let all that you do be done in love.”</p><p class="verse-ref" data-bind="verseRef">1 Corinthians 16:14</p>
+                <div class="final-actions"><button id="downloadButton" class="gold-button">Download invitation</button><button id="backToTop" class="outline-button">Fold the letter again ↑</button></div>
+                <p class="footer-code"><span data-bind="dateShort">08 · 10 · 2026</span> · <span data-bind="code">kh8ayj</span></p>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <div class="gold-seam"></div>
+        <div class="flap flap-top" id="flapTop"><div class="flap-flower orchid-flap"></div></div>
+        <div class="flap flap-right" id="flapRight"></div>
+        <div class="flap flap-bottom" id="flapBottom"><div class="flap-flower rose-flap"></div></div>
+        <div class="flap flap-left" id="flapLeft"></div>
+        <div class="seal" id="seal"><span id="sealLetters">F&C</span></div>
+        <div class="closed-copy" id="closedCopy"><p>You are cordially invited</p><h2><span data-bind="firstName">Felix</span> <span>&</span> <span data-bind="secondName">Cindy</span></h2><small><span data-bind="dateShort">08 · 10 · 2026</span> · Scroll gently to open</small></div>
+        <div class="progress-line"><span id="progressBar"></span></div>
+      </section>
+    </div>
+  </main>
+
+  <aside id="editor" class="editor" aria-hidden="true">
+    <div class="editor-header"><div><span class="eyebrow">Owner editor</span><h2>Edit your invitation</h2></div><button id="closeEditor" class="icon-button" aria-label="Close editor">×</button></div>
+    <p class="editor-help">Changes preview instantly. Save them on this device, or create a share link that carries the edited details with it.</p>
+    <form id="editorForm">
+      <div class="form-grid two"><label>First name<input name="firstName" type="text"></label><label>Second name<input name="secondName" type="text"></label></div>
+      <div class="form-grid two"><label>Wedding date<input name="dateISO" type="datetime-local"></label><label>Guest name<input name="guestName" type="text"></label></div>
+      <div class="form-grid two"><label>Guests admitted<input name="guestCount" type="number" min="1" max="12"></label><label>Invitation code<input name="code" type="text"></label></div>
+      <details open><summary>Ceremony</summary><label>Time<input name="ceremonyTime" type="text"></label><label>Church name<input name="ceremonyName" type="text"></label><label>Church location<input name="ceremonyLocation" type="text"></label><label>Church map link<input name="ceremonyMap" type="url"></label></details>
+      <details><summary>Reception</summary><label>Time<input name="receptionTime" type="text"></label><label>Venue name<input name="receptionName" type="text"></label><label>Venue location<input name="receptionLocation" type="text"></label><label>Reception map link<input name="receptionMap" type="url"></label></details>
+      <details><summary>Photos</summary><label>Photo 1 URL<input name="photo1" type="url" placeholder="https://..."></label><label>Photo 2 URL<input name="photo2" type="url" placeholder="https://..."></label><p class="tiny-note">Use any direct HTTPS image URL.</p></details>
+      <details><summary>Wording</summary><label>Gift note<textarea name="giftNote" rows="5"></textarea></label><label>Adults-only note<textarea name="adultsNote" rows="4"></textarea></label><label>Verse<textarea name="verse" rows="2"></textarea></label><label>Verse reference<input name="verseRef" type="text"></label></details>
+      <div class="editor-actions"><button type="button" id="saveLocal" class="gold-button">Save on this device</button><button type="button" id="shareLink" class="outline-button">Create share link</button><button type="button" id="resetData" class="text-button">Reset defaults</button></div>
+      <output id="editorStatus" class="editor-status" aria-live="polite"></output>
+    </form>
+  </aside>
+  <div id="editorBackdrop" class="editor-backdrop" hidden></div>
+  <script src="./app.js"></script>
+</body>
+</html>
